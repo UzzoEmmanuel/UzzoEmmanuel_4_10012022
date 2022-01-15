@@ -704,6 +704,11 @@ p {
     margin: auto auto auto auto;
 }
 
+.partner {
+    max-width: 200px;
+    margin: auto auto auto auto;
+}
+
 h2 {
     font-size: 22px;
     line-height: 1.4em;
