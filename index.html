@@ -28,7 +28,11 @@
   </head>
   <body>
     <!--header bloc-0 -->
-    <header class="bloc bgc-white l-bloc page-container" id="bloc-0">
+    <header
+      class="bloc bgc-white l-bloc page-container"
+      id="bloc-0"
+      role="navigation"
+    >
       <div class="container bloc-sm">
         <nav class="navbar row">
           <div class="navbar-header">
@@ -44,6 +48,7 @@
               class="ui-navbar-toggle navbar-toggle"
               data-toggle="collapse"
               data-target=".navbar-1"
+              aria-pressed="false"
             >
               <span class="sr-only">Toggle navigation</span
               ><span class="icon-bar"></span><span class="icon-bar"></span
@@ -71,11 +76,12 @@
     </header>
     <!-- bloc-0 END -->
     <!-- Principal conteneur -->
-    <main class="page-container">
+    <main class="page-container" role="main">
       <!-- bloc-1-presentation -->
       <section
         class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax"
         id="bloc-1-hero"
+        role="banner"
       >
         <div class="container bloc-lg">
           <div class="row tight-width-whitespace">
@@ -317,6 +323,7 @@
               <a
                 href="contact.html"
                 class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero"
+                role="button"
                 >Contact</a
               >
             </div>
@@ -328,6 +335,7 @@
       <a
         class="bloc-button btn btn-d scrollToTop"
         onclick="scrollToTarget('1')"
+        aria-pressed="false"
       >
         <span class="fa fa-chevron-up"></span>
       </a>
@@ -335,7 +343,11 @@
     </main>
     <!-- Principal conteneur END -->
     <!-- Footer - bloc-8 -->
-    <footer class="bloc bgc-atomic-tangerine d-bloc page-container" id="bloc-8">
+    <footer
+      class="bloc bgc-atomic-tangerine d-bloc page-container"
+      id="bloc-8"
+      role="contentinfo"
+    >
       <div class="container bloc-sm">
         <div class="row">
           <div class="col-sm-12">
